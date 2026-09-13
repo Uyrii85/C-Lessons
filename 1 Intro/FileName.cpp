@@ -37,4 +37,6 @@ void main()
 	float Korm = K * days/1000;
 	cout << Korm << " kg eat on month\n";
 
+
+
 }
