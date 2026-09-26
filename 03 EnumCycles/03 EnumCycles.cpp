@@ -16,8 +16,26 @@ int main()
    // cout << Ukraine<<endl;
    // 
    // 
-   // enum coins {penny=1, nickel=5, dime=10, quarter=25, half=50, dollar_coin=100};
-   //     coins c;
+   enum coins {penny=1, nickel=5, dime=10, quarter=25, half=50, dollar_coin=100};
+   coins c;
+   switch (c)
+   {
+   case main::penny:
+       break;
+   case main::nickel:
+       break;
+   case main::dime:
+       break;
+   case main::quarter:
+       break;
+   case main::half:
+       break;
+   case main::dollar_coin:
+       break;
+   default:
+       break;
+   }
+
    //     int coins;
    //     cin >> coins;
 
@@ -81,7 +99,7 @@ int main()
    //     }
 
 
-        
+         
     
   cout << "task1\n";
         int i = 1;
