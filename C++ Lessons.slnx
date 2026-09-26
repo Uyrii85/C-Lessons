@@ -6,6 +6,7 @@
   <Project Path="02 Logic Operators/02 Logic Operators.vcxproj" Id="ef727b2d-8ca4-4e8e-815f-5a908c8143d1">
     <BuildDependency Project="03 EnumCycles/03 EnumCycles.vcxproj" />
   </Project>
+  <Project Path="02 Logik DZ1/02 Logik DZ1.vcxproj" Id="6749ba19-2933-4532-8029-2f425ba6e094" />
   <Project Path="03 EnumCycles/03 EnumCycles.vcxproj" Id="8c7a8369-2a2e-42d8-b38d-ed1af424b122" />
   <Project Path="03 For While DZ1/03 For While DZ1.vcxproj" Id="0ea1ad2f-c8c6-42a0-893c-233794c0efd2" />
   <Project Path="1 Intro/1 Intro.vcxproj" Id="92575908-f921-4ba7-bef0-517f8d6573f7" />
