@@ -4,8 +4,49 @@
 #include <iomanip>
 using namespace std;
 
+void Hello()
+{
+	cout << "Hello\n";
+}
+
+void Star(int count)
+{
+	for (int i = 0; i < count; i++)
+	{
+		cout << "* ";
+	}
+}
+
+void Line(int count, char sum)
+{
+	for (int i = 0; i < count; i++)
+	{
+		cout << sum;
+	}
+}
+
+int pow(int number, int step)
+{
+	int pow = 1;
+	for (int i = 0; i < step; i++)
+	{
+		pow *= number;
+	}
+	return pow;
+}
+
+int max(int a, int b)
+{
+	return (a > b) ? a : b;
+}
+
 int main()
 {
+	cout << max(4, 8);
+	Star(10);
+	Line(10, '@');
+	cout << pow(7, 3);
+
    // srand(time(0));
    // int start;
    // //cin>>start;
@@ -317,4 +358,8 @@ int main()
 		cout << endl;
 	}
 	cout << "Sum negative" << num10 << endl;
+
+	Hello();
+
+
 }
