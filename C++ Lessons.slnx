@@ -13,6 +13,7 @@
   <Project Path="04 Include/04 Include.vcxproj" Id="ce7ae7e4-5f85-4366-95a8-dc259a8a43f0" />
   <Project Path="05 DZ1/05 DZ1.vcxproj" Id="bab2d6f8-dc22-4325-9df0-dfbedad8b080" />
   <Project Path="05 DZ2/05 DZ2.vcxproj" Id="166e5922-4b93-4fb3-a18e-355c4bdbbaca" />
+  <Project Path="06 Massiv DZ1/06 Massiv DZ1.vcxproj" Id="23f2393d-1d98-4f2c-aed2-cdea1b3d9aa3" />
   <Project Path="06 Random/06 Random.vcxproj" Id="6cb977a6-2c7e-4e8a-8f87-15baed19f07f" />
   <Project Path="1 Intro/1 Intro.vcxproj" Id="92575908-f921-4ba7-bef0-517f8d6573f7" />
 </Solution>
