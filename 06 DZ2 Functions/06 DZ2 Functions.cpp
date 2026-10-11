@@ -130,6 +130,122 @@ int negative(int mas[], int size)
 	return neg;
 }
 
+//Task7
+//визначення кількості днів у вісокосному році
+int leap_year(int a)
+{
+	if (a % 4 == 0)
+	{
+		return 366;
+	}
+	else
+	{
+		return 365;
+	}
+
+}
+
+
+//підрахунок кількості днів
+int days(int mas[6])
+{
+	int days = 0; //лічильник днів
+	int startyear = mas[0];
+	int startmonth = mas[1];
+	int startday = mas[2];
+	int finishyear = mas[3];
+	int finishmonth = mas[4];
+	int finishday = mas[5];
+
+	if (startyear < finishyear)//якщо дати в різні роки
+	{
+		int year = startyear + 1;//додавання днів за роки, між граничними роками
+		while (year < finishyear)
+		{
+			days += leap_year(year);
+			year++;
+		}
+
+		int month_s = startmonth + 1;//додавання днів за місяці в початковому році
+
+		while (month_s<=12)
+		{
+			if (month_s == 3 or month_s == 5 or month_s == 7 or month_s == 8 or month_s == 10 or month_s == 12)
+				days += 31;
+			else if (month_s == 4 or month_s == 6 or month_s == 9 or month_s == 11)
+				days += 30;
+			else if (month_s ==2 and startyear%4==0)
+				days += 29;
+			else
+				days += 28;
+			month_s++;
+		}
+
+
+		int month_f = 1;//додавання днів за місяці в кінцевому році
+
+		while (month_f < finishmonth)
+		{
+			if (month_f == 1 or month_f == 3 or month_s == 5 or month_s == 7 or month_s == 8 or month_s == 10)
+				days += 31;
+			else if (month_f == 4 or month_f == 6 or month_f == 9 or month_f == 11)
+				days += 30;
+			else if (month_f == 2 and finishyear % 4 == 0)
+				days += 29;
+			else
+				days += 28;
+			month_f++;
+		}
+		//додавання днів за початковий місяць в початковому році
+		if (startmonth == 1 or startmonth == 3 or startmonth == 5 or startmonth == 7 or startmonth == 8 or startmonth == 10 or startmonth == 12)
+			days += 31 - startday;
+		else if (startmonth == 4 or startmonth == 6 or startmonth == 9 or startmonth == 11)
+			days += 30 - startday;
+		else if (startmonth == 2 and startyear%4==0)
+			days= days+29-startday;
+		else 
+			days=days+28-startday;
+		//додавання днів за початковий місяць в початковому році
+			days += finishday;
+	}
+
+	else if (startyear == finishyear)//якщо роки початку та кінця співпадають
+	{
+		if (startmonth < finishmonth)//якщо місяці не співпадають
+		{
+			int month = startmonth + 1;//додавання днів за місяці, між граничними місяцями
+			while (month < finishmonth)
+			{
+				if (month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12)
+					days = days + 31 - startday;
+				else if (month == 4 or month == 6 or month == 9 or month == 11)
+					days = days + 30 - startday;
+				else if (month == 2 and startyear % 4 == 0)
+					days = days + 29 - startday;
+				else
+					days = days + 28 - startday;
+				month++;
+			}
+			//додавання днів за стартовий місяць
+			if (startmonth == 1 or startmonth == 3 or startmonth == 5 or startmonth == 7 or startmonth == 8 or startmonth == 10 or startmonth == 12)
+				days = days + 31 - startday;
+			else if (startmonth == 4 or startmonth == 6 or startmonth == 9 or startmonth == 11)
+				days = days + 30 - startday;
+			else if (startmonth == 2 and startyear % 4 == 0)
+				days = days + 29 - startday;
+			else
+				days = days + 28 - startday;
+
+			//додавання днів за останній місяць
+			days += finishday;
+		}
+		else if (startmonth == finishmonth)//якщо співпадають рік та місяць
+		{
+			days = finishday - startday;
+		}
+	}
+	return days;
+}
 
 
 int main()
@@ -202,6 +318,27 @@ int main()
 	cout <<d<<" is positive?\n" <<zero(d)<< endl;
 
 
+	cout << "\nTask7\n";
+
+	int data[6];
+	cout << "Enter start year: ";
+		cin >> data[0];
+	cout << "Enter start month: ";
+		cin >> data[1];
+	cout << "Enter start day: ";
+		cin >> data[2];
+	cout << "Enter finish year: ";
+		cin >> data[3];
+	cout << "Enter finish month: ";
+		cin >> data[4];
+	cout << "Enter finish day: ";
+		cin >> data[5];
+
+		int day = days(data);
+
+		cout << "Between "<<data[2]<<"."<< data[1]<<"."<< data[0] <<" year and " << data[5] << "." << data[4] << "." << data[3] <<" year "<<day<<" days\n";
+
+
 	cout << "\nTask8\n";
 	const int size8 = 10;
 	int mas8[size8]{};
@@ -221,9 +358,6 @@ int main()
 	int zero =size9-pos-neg;
 	cout << "Positive elements " <<pos<< endl;
 	cout << "Negative elements " <<neg<< endl;
-	cout << "NULL elements " <<zero<< endl;
-
-
-
+	cout << "NULL elements " << zero << endl;
 
 }
