@@ -17,5 +17,7 @@
   <Project Path="06 Massiv DZ1/06 Massiv DZ1.vcxproj" Id="23f2393d-1d98-4f2c-aed2-cdea1b3d9aa3" />
   <Project Path="06 Random/06 Random.vcxproj" Id="6cb977a6-2c7e-4e8a-8f87-15baed19f07f" />
   <Project Path="08 Overload/08 Overload.vcxproj" Id="a0564e32-3ddf-4e05-b351-d4bc6a3e3358" />
+  <Project Path="09 Liner_Search_Sort/09 Liner_Search_Sort.vcxproj" Id="ee4d2988-695e-4474-8873-85d0549c83ea" />
+  <Project Path="09 Recursion/09 Recursion.vcxproj" Id="31794333-5835-4ad0-b231-461768f69fb5" />
   <Project Path="1 Intro/1 Intro.vcxproj" Id="92575908-f921-4ba7-bef0-517f8d6573f7" />
 </Solution>
