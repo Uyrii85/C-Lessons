@@ -5,11 +5,9 @@ using namespace std;
 
 int recursion1(int a, int b)
 {
-    while (b >= 0)
-    {
+    if (b== 0)
+    return 1;
         return a * recursion1(a, b - 1);
-        b--;
-    }
 }
 
 //Task 2
@@ -25,18 +23,15 @@ void star(int c)
 //Task 3
 int sum(int d, int e)
 {
-    do
-    {
-        return d + sum(d + 1, e);
-        d++;
-    } 
-    while (d<=e);
+    if (d == e)
+        return e;
+    return d + sum(d + 1, e);
 }
 
 
 int main()
 {
-    /*int a, b;
+    int a, b;
     cout << "Task 1\n";
     cout << "Enter number: ";
     cin >> a;
@@ -44,22 +39,19 @@ int main()
     cout << "Enter power of number: ";
     cin >> b;
     
-    cout<<recursion1(a, b);
-    cout << a;*/
+    cout<<a<<" in power "<<b<<" = "<<recursion1(a, b) << endl;
 
     cout << "\nTask 2\n";
-    int a;
+    int c;
     cout << "Enter number of *:";
-    cin >> a;
-    star(a);
+    cin >> c;
+    star(c);
 
     cout << "\nTask 3\n";
-    int c, d;
+    int d, e;
     cout << "Enter start number: ";
-    cin >> c;
-    cout << "Enter finish number: ";
     cin >> d;
-    cout << sum(c, d);
-
-
+    cout << "Enter finish number: ";
+    cin >> e;
+    cout <<"Sum of numbers between "<<d<<" and "<<e<<" is "<<sum(d, e)<<endl;
 }
