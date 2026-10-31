@@ -22,4 +22,6 @@
   <Project Path="09 Liner_Search_Sort/09 Liner_Search_Sort.vcxproj" Id="ee4d2988-695e-4474-8873-85d0549c83ea" />
   <Project Path="09 Recursion/09 Recursion.vcxproj" Id="31794333-5835-4ad0-b231-461768f69fb5" />
   <Project Path="1 Intro/1 Intro.vcxproj" Id="92575908-f921-4ba7-bef0-517f8d6573f7" />
+  <Project Path="10 Pointers Work/10 Pointers Work.vcxproj" Id="14240347-3bf8-4899-8884-1a793c37fb53" />
+  <Project Path="11 Pointers/11 Pointers.vcxproj" Id="b40b0bd2-2863-4a2d-8b7c-5dce2afcee35" />
 </Solution>
