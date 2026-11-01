@@ -25,6 +25,7 @@ int main()
         parr3++;
     }
 
+
     printer(*parr3, size3);
     int max;
     int *pmax = &max;
