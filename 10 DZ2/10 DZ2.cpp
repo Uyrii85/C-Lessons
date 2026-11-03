@@ -21,7 +21,16 @@ void massiv(int* arr, int size)
     }
 }
 
-//Task6
+//Additional Task 1
+int* minimum(int* a, int* b)
+{
+    if (*a < *b)
+        return a;
+    else
+        return b;
+}
+
+//Additional Task 2
 void changes(int* a, int* b)
 {
     int c;
@@ -30,7 +39,7 @@ void changes(int* a, int* b)
     *b =c;
 }
 
-//Task 7
+//Additional Task 3
 void Null(int* arr, int size)
 {
     for (int i = 0; i < size; i++)
@@ -88,7 +97,22 @@ int main()
     printer(arr4, size4);
 
 
-    cout << "\nTask 6\n";
+    cout << "\nAdditional Task 1\n";
+
+    int a5, b5;
+    cout << "a="; cin >> a5;
+    cout << "b="; cin >> b5;
+
+    cout << "a=" << a5 << endl;
+    cout << "b=" << b5 << endl;
+
+    cout << "Min=" << *(minimum(&a5, &b5))<<endl;
+    *(minimum(&a5, &b5)) += 10;
+
+    cout << "a=" << a5 << endl;
+    cout << "b=" << b5 << endl;
+
+    cout << "\nAdditional Task 2\n";
 
     int a6, b6;
     cout << "a="; cin >> a6;
@@ -101,7 +125,7 @@ int main()
 
 
 
-    cout << "\nTask 7\n";
+    cout << "\nAdditional Task 3\n";
     const int size7 = 10;
     int arr7[size7];
     
@@ -112,7 +136,43 @@ int main()
     Null(arr7, size7);
 
     printer(arr7, size7);
-  
 
+
+    cout << "\nAdditional Task 4\n";
+    const int size8 = 5;
+    int arr8[size8][size8];
+
+    for (int i = 0; i < size8; i++)
+    {
+        for (int j = 0; j < size8; j++)
+        {
+            arr8[i][j] = rand() % 100 - 50;
+        }
+        
+    }
+    cout << "\nPrimary array\n";
+    for (int i = 0; i < size8; i++)
+    {
+        for (int j = 0; j < size8; j++)
+        {
+            cout<<arr8[i][j]<<"\t";
+        }
+        cout << endl;
+    }
+
+    cout << "\nEditable array\n";
+   for (int i = 0; i < size8; i++)
+    {
+       changes(&(arr8[i][0]), &(arr8[i][1]));
+    }
+
+    for (int i = 0; i < size8; i++)
+    {
+        for (int j = 0; j < size8; j++)
+        {
+            cout << arr8[i][j] << "\t";
+        }
+        cout << endl;
+    }
 }
 
