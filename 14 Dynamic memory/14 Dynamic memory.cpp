@@ -3,6 +3,11 @@
 #include <conio.h>
 using namespace std;
 
+int* create_arr(int size)
+{
+    int* arr = new int[size];
+    return arr;
+}
 void test1()
 {
     const int size = 10;

@@ -30,4 +30,5 @@
   <Project Path="13 Links/13 Links.vcxproj" Id="7fdaf31e-0604-47a4-801a-f0f4d7d5fc46" />
   <Project Path="14 Dynamic memory/14 Dynamic memory.vcxproj" Id="cd8d9221-3887-427c-94d7-15b518017930" />
   <Project Path="15 C style/15 C style.vcxproj" Id="1633ab28-55b0-476c-addb-0527f032cdcd" />
+  <Project Path="20 DZ1/20 DZ1.vcxproj" Id="b43fd20a-bd22-431e-a633-06e524cf3ece" />
 </Solution>
