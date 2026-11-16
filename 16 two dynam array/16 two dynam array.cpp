@@ -61,7 +61,7 @@ int** delete_row_end(int** arr, int rows, int cols)
     {
         temp[i] = arr[i];
     }
-    delete[] arr[rows - 1];
+    delete[] arr[0];
     delete[]arr;
     rows--;
     return temp;

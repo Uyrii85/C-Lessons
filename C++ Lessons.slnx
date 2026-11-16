@@ -3,34 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="02 Logic Operators/02 Logic Operators.vcxproj" Id="ef727b2d-8ca4-4e8e-815f-5a908c8143d1">
-    <BuildDependency Project="03 EnumCycles/03 EnumCycles.vcxproj" />
-  </Project>
-  <Project Path="02 Logik DZ1/02 Logik DZ1.vcxproj" Id="6749ba19-2933-4532-8029-2f425ba6e094" />
-  <Project Path="03 EnumCycles/03 EnumCycles.vcxproj" Id="8c7a8369-2a2e-42d8-b38d-ed1af424b122" />
-  <Project Path="03 For While DZ1/03 For While DZ1.vcxproj" Id="0ea1ad2f-c8c6-42a0-893c-233794c0efd2" />
-  <Project Path="03 For While DZ2/03 For While DZ2.vcxproj" Id="09780688-f8f0-4c8c-9944-639668dff662" />
-  <Project Path="04 Include/04 Include.vcxproj" Id="ce7ae7e4-5f85-4366-95a8-dc259a8a43f0" />
-  <Project Path="05 DZ1/05 DZ1.vcxproj" Id="bab2d6f8-dc22-4325-9df0-dfbedad8b080" />
-  <Project Path="05 DZ2/05 DZ2.vcxproj" Id="166e5922-4b93-4fb3-a18e-355c4bdbbaca" />
-  <Project Path="06 DZ2 Functions/06 DZ2 Functions.vcxproj" Id="9990476c-55f7-472b-9810-90608bbda6d8" />
-  <Project Path="06 Massiv DZ1/06 Massiv DZ1.vcxproj" Id="23f2393d-1d98-4f2c-aed2-cdea1b3d9aa3" />
-  <Project Path="06 Random/06 Random.vcxproj" Id="6cb977a6-2c7e-4e8a-8f87-15baed19f07f" />
-  <Project Path="08 Overload/08 Overload.vcxproj" Id="a0564e32-3ddf-4e05-b351-d4bc6a3e3358" />
-  <Project Path="09 DZ 1/09 DZ 1.vcxproj" Id="c8b56b57-6921-498c-8f47-f09463022069" />
-  <Project Path="09 DZ 2/09 DZ 2.vcxproj" Id="aa92d75a-0156-437a-a872-deab613d6298" />
-  <Project Path="09 Liner_Search_Sort/09 Liner_Search_Sort.vcxproj" Id="ee4d2988-695e-4474-8873-85d0549c83ea" />
-  <Project Path="09 Recursion/09 Recursion.vcxproj" Id="31794333-5835-4ad0-b231-461768f69fb5" />
-  <Project Path="1 Intro/1 Intro.vcxproj" Id="92575908-f921-4ba7-bef0-517f8d6573f7" />
-  <Project Path="10 DZ1/10 DZ1.vcxproj" Id="fd4b7aa7-32da-4afc-bba5-4720d7c48c54" />
-  <Project Path="10 DZ2/10 DZ2.vcxproj" Id="ddacd475-ea63-4596-9ada-cb1642f40f6c" />
-  <Project Path="10 Pointers 2/10 Pointers 2.vcxproj" Id="deaebcb4-d576-4395-909b-d7c4722be5d5" />
-  <Project Path="10 Pointers Work/10 Pointers Work.vcxproj" Id="14240347-3bf8-4899-8884-1a793c37fb53" />
-  <Project Path="11 Pointers/11 Pointers.vcxproj" Id="b40b0bd2-2863-4a2d-8b7c-5dce2afcee35" />
-  <Project Path="13 Links/13 Links.vcxproj" Id="7fdaf31e-0604-47a4-801a-f0f4d7d5fc46" />
-  <Project Path="14 Dynamic memory/14 Dynamic memory.vcxproj" Id="cd8d9221-3887-427c-94d7-15b518017930" />
-  <Project Path="15 C style/15 C style.vcxproj" Id="1633ab28-55b0-476c-addb-0527f032cdcd" />
-  <Project Path="16 two dynam array/16 two dynam array.vcxproj" Id="c01975fb-f414-4d7c-9c47-233749db0a33" />
-  <Project Path="20 DZ1/20 DZ1.vcxproj" Id="b43fd20a-bd22-431e-a633-06e524cf3ece" />
-  <Project Path="20 DZ2/20 DZ2.vcxproj" Id="ee400edc-da78-466f-b970-90eb0c5b83b9" />
+  <Project Path="21 DZ1/21 DZ1.vcxproj" />
 </Solution>
