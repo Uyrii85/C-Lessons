@@ -1,5 +1,3 @@
-// 21 DZ1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 using namespace std;
@@ -41,10 +39,12 @@ void add_row(int* arr, int cols)
 int main()
 
 {
-    int rows;
-    int cols;
-    cout << "Enter number of rows: "; cin > rows;
-    cout << "Enter number of cols: "; cin > cols;
+    int rows = 5;
+    int cols = 5;
+    cout <<"Enter number of rows: "; 
+    cin>>rows;
+    cout << "Enter number of cols: "; 
+    cin>>cols;
 
     int** arr = new int* [rows];
     for (int i = 0; i < rows; i++)

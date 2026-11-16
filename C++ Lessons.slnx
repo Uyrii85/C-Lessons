@@ -3,5 +3,12 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="21 DZ1/21 DZ1.vcxproj" />
+  <Project Path="02 Logic Operators/02 Logic Operators.vcxproj" Id="ef727b2d-8ca4-4e8e-815f-5a908c8143d1" />
+  <Project Path="03 DZ-1/03 DZ-1.vcxproj" Id="af028270-f89f-4ca9-a89c-501ffdf325e0" />
+  <Project Path="03 EnumCycles/03 EnumCycles.vcxproj" Id="8c7a8369-2a2e-42d8-b38d-ed1af424b122" />
+  <Project Path="03 For While DZ1/03 For While DZ1.vcxproj" Id="0ea1ad2f-c8c6-42a0-893c-233794c0efd2" />
+  <Project Path="03 For While DZ2/03 For While DZ2.vcxproj" Id="09780688-f8f0-4c8c-9944-639668dff662" />
+  <Project Path="04 Include/04 Include.vcxproj" Id="ce7ae7e4-5f85-4366-95a8-dc259a8a43f0" />
+  <Project Path="1 Intro/1 Intro.vcxproj" Id="92575908-f921-4ba7-bef0-517f8d6573f7" />
+  <Project Path="21 DZ/21 DZ.vcxproj" Id="e3d32cea-0fb1-419d-aeb6-84a10d2858e8" />
 </Solution>
