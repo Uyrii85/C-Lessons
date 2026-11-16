@@ -9,6 +9,14 @@
   <Project Path="03 For While DZ1/03 For While DZ1.vcxproj" Id="0ea1ad2f-c8c6-42a0-893c-233794c0efd2" />
   <Project Path="03 For While DZ2/03 For While DZ2.vcxproj" Id="09780688-f8f0-4c8c-9944-639668dff662" />
   <Project Path="04 Include/04 Include.vcxproj" Id="ce7ae7e4-5f85-4366-95a8-dc259a8a43f0" />
+  <Project Path="05 DZ1/05 DZ1.vcxproj" Id="bab2d6f8-dc22-4325-9df0-dfbedad8b080" />
+  <Project Path="05 DZ2/05 DZ2.vcxproj" Id="166e5922-4b93-4fb3-a18e-355c4bdbbaca" />
+  <Project Path="06 DZ2 Functions/06 DZ2 Functions.vcxproj" Id="9990476c-55f7-472b-9810-90608bbda6d8" />
+  <Project Path="06 Massiv DZ1/06 Massiv DZ1.vcxproj" Id="23f2393d-1d98-4f2c-aed2-cdea1b3d9aa3" />
+  <Project Path="06 Random/06 Random.vcxproj" Id="6cb977a6-2c7e-4e8a-8f87-15baed19f07f" />
+  <Project Path="08 Overload/08 Overload.vcxproj" Id="a0564e32-3ddf-4e05-b351-d4bc6a3e3358" />
+  <Project Path="09 DZ 1/09 DZ 1.vcxproj" Id="c8b56b57-6921-498c-8f47-f09463022069" />
   <Project Path="1 Intro/1 Intro.vcxproj" Id="92575908-f921-4ba7-bef0-517f8d6573f7" />
   <Project Path="21 DZ/21 DZ.vcxproj" Id="e3d32cea-0fb1-419d-aeb6-84a10d2858e8" />
+  <Project Path="21 DZ2/21 DZ2.vcxproj" Id="6777ecbb-a102-4410-8f10-6c5d0ae1bf09" />
 </Solution>
