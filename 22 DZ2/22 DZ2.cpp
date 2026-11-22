@@ -83,7 +83,7 @@ int main()
     {4, "Karlsson on the Roof ", "Astrid Lindgren", "Rabén & Sjögren", "Tale", 1955, 700 },
     {5, "White Fang", "Jack London", "Macmillan and Company", "Adventure", 1835, 1300 },
     {6, "Zakhar Berkut", "Ivan Franko","Taras Shevchenko publishing house", "Epos", 1883, 700 },
-    {7, "Thumbelina", "Hans Christian Andersen", "Tale", "Pegas", 1835, 800 },
+    {7, "Thumbelina", "Hans Christian Andersen", "Pegas", "Tale", 1835, 800 },
     {8, "The Forest Song", "Lesya Ukrainka", "Literary and scientific bulletin","Drama", 1911, 1400 },
     {9, "Hamlet", "William Shakespeare", "BritishBook","Tragedy", 1893, 1600 }
     };
