@@ -16,7 +16,23 @@
   <Project Path="06 Random/06 Random.vcxproj" Id="6cb977a6-2c7e-4e8a-8f87-15baed19f07f" />
   <Project Path="08 Overload/08 Overload.vcxproj" Id="a0564e32-3ddf-4e05-b351-d4bc6a3e3358" />
   <Project Path="09 DZ 1/09 DZ 1.vcxproj" Id="c8b56b57-6921-498c-8f47-f09463022069" />
+  <Project Path="09 DZ 2/09 DZ 2.vcxproj" Id="aa92d75a-0156-437a-a872-deab613d6298" />
+  <Project Path="09 Recursion/09 Recursion.vcxproj" Id="31794333-5835-4ad0-b231-461768f69fb5" />
   <Project Path="1 Intro/1 Intro.vcxproj" Id="92575908-f921-4ba7-bef0-517f8d6573f7" />
+  <Project Path="10 DZ1/10 DZ1.vcxproj" Id="fd4b7aa7-32da-4afc-bba5-4720d7c48c54" />
+  <Project Path="10 DZ2/10 DZ2.vcxproj" Id="ddacd475-ea63-4596-9ada-cb1642f40f6c" />
+  <Project Path="10 Pointers 2/10 Pointers 2.vcxproj" Id="deaebcb4-d576-4395-909b-d7c4722be5d5" />
+  <Project Path="10 Pointers Work/10 Pointers Work.vcxproj" Id="14240347-3bf8-4899-8884-1a793c37fb53" />
+  <Project Path="11 Pointers/11 Pointers.vcxproj" Id="b40b0bd2-2863-4a2d-8b7c-5dce2afcee35" />
+  <Project Path="13 Links/13 Links.vcxproj" Id="7fdaf31e-0604-47a4-801a-f0f4d7d5fc46" />
+  <Project Path="14 Dynamic memory/14 Dynamic memory.vcxproj" Id="cd8d9221-3887-427c-94d7-15b518017930" />
+  <Project Path="15 C style/15 C style.vcxproj" Id="1633ab28-55b0-476c-addb-0527f032cdcd" />
+  <Project Path="16 two dynam array/16 two dynam array.vcxproj" Id="c01975fb-f414-4d7c-9c47-233749db0a33" />
+  <Project Path="17 Struct/17 Struct.vcxproj" Id="6a1fe9c3-54c1-4c5f-b0de-00bfa255f27c" />
+  <Project Path="20 DZ1/20 DZ1.vcxproj" Id="b43fd20a-bd22-431e-a633-06e524cf3ece" />
+  <Project Path="20 DZ2/20 DZ2.vcxproj" Id="ee400edc-da78-466f-b970-90eb0c5b83b9" />
   <Project Path="21 DZ/21 DZ.vcxproj" Id="e3d32cea-0fb1-419d-aeb6-84a10d2858e8" />
+  <Project Path="21 DZ1/21 DZ1.vcxproj" Id="63f17904-039f-4258-8f28-233aa8a835ef" />
   <Project Path="21 DZ2/21 DZ2.vcxproj" Id="6777ecbb-a102-4410-8f10-6c5d0ae1bf09" />
+  <Project Path="22 DZ1/22 DZ1.vcxproj" Id="95f11c23-a510-46a5-8716-67f5d7c1db2e" />
 </Solution>
