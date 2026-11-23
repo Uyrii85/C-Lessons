@@ -49,6 +49,7 @@ struct Machine
 
 void Enter_car(Machine &car)
 {
+    cin.ignore();
     cout << "Enter model: ";
     cin.getline(car.model, 100);
     cout << "Enter color: ";
@@ -57,49 +58,40 @@ void Enter_car(Machine &car)
     cin.getline(car.number, 100);
 }
 
-void Print_car(Machine &car)
+void Print_car(Machine &cars)
 {
-    cout << "Id: " << car.id << endl;
-    cout << "Model: "<<car.model<<endl;
-    cout << "Color: "<<car.color<<endl;
-    cout << "Number: "<<car.number<<endl;
+    cout << "Id: " << cars.id << endl;
+    cout << "Model: "<<cars.model<<endl;
+    cout << "Color: "<<cars.color<<endl;
+    cout << "Number: "<<cars.number<<endl;
     cout << endl;
 }
 
-void search(Machine &car[], int size, char num[100])
+void search(Machine cars[], int size, char number[100])
 
 {
     for (int i = 0; i < size; i++)
     {
-        if (strcmp(car[i].number, num) == 0)
+        if (strcmp(cars[i].number, number) == 0)
         {
-            Print_car(car[i]);
+            Print_car(cars[i]);
         }
     }
 }
 
-void edit(Machine &cars[], int size, int id)
-
-{
-    cout << "Enter model: ";
-    cin.getline(cars[id].model, 100);
-    cout << "Enter color: ";
-    cin.getline(cars[id].color, 100);
-    cout << "Enter number: ";
-    cin.getline(cars[id].number, 100);
-}
 
 int main()
 {
-    /*cout << "Task 1\n";
+    cout << "Task 1\nFirst washing machine:\n";
     Washing_machine C100 = { "Samsung", "White", 600, 800, 2200, 90, 1000 };
     print_wash(C100);
-    cout << "Enter new washing machine:\n";
+    cout << "\nEnter new washing machine:\n";
     Washing_machine N200 = {};
     enter_wash(N200);
-    print_wash(N200);*/
+    cout << "\nNew washing machine:\n";
+    print_wash(N200);
 
-    cout << "Task 4\nEnter car BMW:\n";
+    cout << "\nTask 4\nEnter car BMW:\n";
    
     Machine BMW = {};
     BMW.id = 0;
@@ -109,24 +101,25 @@ int main()
     const int size = 10;
     Machine cars[size] =
     {
-        {1, "BMW X5", "White", "AH 2571 KO"},
-        {2, "Mercedes S500", "Red", "AA 2471 MH"},
-        {3, "AUDI A7 ", "Green", "AK 2697 AO"},
-        {4, "Volkswagen Passat", "Grey", "KA 2405 PK"},
-        {5, "Toyota Corolla", "Pink", "BOND"},
-        {6, "Hyunday Sonata", "Green","AH 2571 KO"},
-        {7, "Scoda Octavia", "Yellow", "AE 2357 PB"},
-        {8, "Honda Civic", "Black", "KOTIK"},
-        {9, "Mazda CR5", "White", "AP 2217 KH"},
-        {10, "Suzuki Grand", "Brown", "BB 2907 KE"}
+        {0, "BMW X5", "White", "AH 2571 KO"},
+        {1, "Mercedes S500", "Red", "AA 2471 MH"},
+        {2, "AUDI A7 ", "Green", "AK 2697 AO"},
+        {3, "Volkswagen Passat", "Grey", "KA 2405 PK"},
+        {4, "Toyota Corolla", "Pink", "BOND"},
+        {5, "Hyunday Sonata", "Green","AH 2571 KO"},
+        {6, "Scoda Octavia", "Yellow", "AE 2357 PB"},
+        {7, "Honda Civic", "Black", "KOTIK"},
+        {8, "Mazda CR5", "White", "AP 2217 KH"},
+        {9, "Suzuki Grand", "Brown", "BB 2907 KE"}
     };
     int num;
     int id;
     char number[100];
     do
     {
-        cout << "1 - Print all cars\n2 - Edit cars\n3 - Find car\n0 - Exit\nEnter number:";
+        cout << "\n1 - Print all cars\n2 - Edit cars\n3 - Find car\n0 - Exit\nEnter number:";
             cin >> num;
+            cin.ignore();
             switch (num)
             {
             case 1:
@@ -138,7 +131,7 @@ int main()
             case 2:
                 cout << "Enter id to edit:";
                 cin >> id;
-                edit(cars, size, id);
+                Enter_car(cars[id]);
                 Print_car(cars[id]);
                 break;
             case 3:
